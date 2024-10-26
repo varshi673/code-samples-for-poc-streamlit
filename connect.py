@@ -8,8 +8,9 @@ def main():
     
     # Azure OpenAI connection details
     # Here, we define the API key and endpoint URL for connecting to Azure OpenAI.
-    azure_openai_key = "<API_KEY>"  # Replace with your actual key. if you don't have one, get from Azure or from Community https://curious.pm
-    azure_openai_endpoint = "<ENDPOINT_URL>"  # Replace with your actual endpoint URL
+    azure_openai_key = "<22ec84421ec24230a3638d1b51e3a7dc>"  # Replace with your actual key. if you don't have one, get from Azure or from Community https://curious.pm
+    azure_openai_endpoint = "<https://internshala.openai.azure.com/openai/deployments/gpt-4o/
+chat/completions?api-version=2024-08-01-preview>"  # Replace with your actual endpoint URL
     
     # Button to initiate the connection and request
     # User clicks this button to initiate the request to Azure OpenAI.
